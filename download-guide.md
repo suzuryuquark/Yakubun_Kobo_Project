@@ -19,7 +19,7 @@ Windowsのセキュリティ機能により、ファイルのダウンロード�
 
     *   次の画面で「削除」ボタンの右にあるメニューアイコン ![詳細メニュー](https://raw.githubusercontent.com/suzuryuquark/Yakubun_Kobo_Project/main/assets/chevron-arrow-down.svg) をクリックし、「保持する」を選択してダウンロードを完了させます。
 
-    ![Edgeのダウンロード警告のスクリーンショット2](https://raw.githubusercontent.com/suzuryuquark/Yakubun_Kobo_Project/main/assets/edge_download_warning_2.png)
+    ![Edgeのダウンロード警告のスクリーンショット2](https://raw.githubusercontent.com/suzuryuquark/Yakubun_Kobo_Project/main/assets/edge_download_warning2.png)
 
 *   **Google Chromeの場合:**
     *   ダウンロードバーに表示される警告で、ファイル名の横にある「^」をクリックし、「継続」を選択します。
@@ -31,12 +31,12 @@ Windowsのセキュリティ機能により、ファイルのダウンロード�
 1.  ダウンロードした `YakubunKobo_Setup-vX.X.X.exe` を実行すると、以下のような青い画面が表示されます。
     **「詳細情報」** をクリックしてください。
 
-    ![Windows Defender SmartScreenの警告画面のスクリーンショット](https://raw.githubusercontent.com/suzuryuquark/Yakubun_Kobo_Project/main/assets/Window_Defender_SmartScreen_warning.png)
+    ![Windows Defender SmartScreenの警告画面のスクリーンショット](https://raw.githubusercontent.com/suzuryuquark/Yakubun_Kobo_Project/main/assets/Windows_Defender_SmartScreen_warning.png)
 
 2.  アプリケーションの発行元やファイル名が表示されます。
     **「実行」** ボタンをクリックしてください。
 
-    ![Windows Defender SmartScreenの警告画面のスクリーンショット2](https://raw.githubusercontent.com/suzuryuquark/Yakubun_Kobo_Project/main/assets/Window_Defender_SmartScreen_warning2.png)
+    ![Windows Defender SmartScreenの警告画面のスクリーンショット2](https://raw.githubusercontent.com/suzuryuquark/Yakubun_Kobo_Project/main/assets/Windows_Defender_SmartScreen_warning2.png)
 
 3.  インストーラーが起動しますので、画面の指示に従ってインストールを進めてください。
 
