@@ -13,13 +13,13 @@ Windowsのセキュリティ機能により、ファイルのダウンロード�
 お使いのブラウザによって手順が異なります。
 
 *   **Microsoft Edgeの場合:**
-    *   ダウンロード後に表示される警告文の右にあるメニューアイコン <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHN0eWxlPSJ2ZXJ0aWNhbC1hbGlnbjogbWlkZGxlOyI+PGNpcmNsZSBjeD0iMTIiIGN5PSIxMiIgcj0iMSI+PC9jaXJjbGU+PGNpcmNsZSBjeD0iMTkiIGN5PSIxMiIgcj0iMSI+PC9jaXJjbGU+PGNpcmNsZSBjeD0iNSIgY3k9IjEyIiByPSIxIj48L2NpcmNsZT48L3N2Zz4=" alt="メニュー"> から「保存」を選択します。
+    *   ダウンロード後に表示される警告文の右にあるメニューアイコン ![メニュー](https://raw.githubusercontent.com/suzuryuquark/Yakubun_Kobo_Project/main/assets/ellipsis.svg) から「保存」を選択します。
 
     ![Edgeのダウンロード警告のスクリーンショット](https://raw.githubusercontent.com/suzuryuquark/Yakubun_Kobo_Project/main/assets/edge_download_warning.png)
 
-    *   次の画面で「削除」ボタンの右にあるメニューアイコン <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHN0eWxlPSJ2ZXJ0aWNhbC1hbGlnbjogbWlkZGxlOyI+PHBhdGggZD0ibTYgOSA2IDYgNi02Ij48L3BhdGg+PC9zdmc+" alt="詳細メニュー"> をクリックし、「保持する」を選択してダウンロードを完了させます。
+    *   次の画面で「削除」ボタンの右にあるメニューアイコン ![詳細メニュー](https://raw.githubusercontent.com/suzuryuquark/Yakubun_Kobo_Project/main/assets/chevron-arrow-down.svg) をクリックし、「保持する」を選択してダウンロードを完了させます。
 
-    ![Edgeのダウンロード警告のスクリーンショット2](https://raw.githubusercontent.com/suzuryuquark/Yakubun_Kobo_Project/main/assets/edge_download_warning2.png)
+    ![Edgeのダウンロード警告のスクリーンショット2](https://raw.githubusercontent.com/suzuryuquark/Yakubun_Kobo_Project/main/assets/edge_download_warning_2.png)
 
 *   **Google Chromeの場合:**
     *   ダウンロードバーに表示される警告で、ファイル名の横にある「^」をクリックし、「継続」を選択します。
