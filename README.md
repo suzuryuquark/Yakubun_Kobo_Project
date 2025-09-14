@@ -4,7 +4,7 @@
 ![Version](https://img.shields.io/github/v/release/suzuryuquark/Yakubun_Kobo_Project)
 ![License](https://img.shields.io/badge/license-Proprietary-red)
 
-**訳文工房**は、Googleの強力なAIモデル「Gemini」を活用した、Windows向けの多機能翻訳アプリケーションです。専門用語や固有名詞を正確に反映させるための**ユーザー辞書機能**や、日本語の**文体（敬体/常体）指定**など、高度なカスタマイズが可能です。
+**訳文工房 (Yakubun Kobo)** は、Googleの強力なAIモデル「Gemini」を搭載した、Windows向けの多機能翻訳アプリケーションです。PDFやWordファイルの直接読み込み、長文を快適に扱うための**ページング機能**、専門用語を正確に反映させる**ユーザー辞書**、訳文に解説を自動で加える**注釈機能**など、高度な機能で翻訳作業を強力にサポートします。
 
 ![アプリケーションのスクリーンショット](https://raw.githubusercontent.com/suzuryuquark/Yakubun_Kobo_Project/main/assets/screenshot.png)
 *(スクリーンショットはイメージです)*
@@ -30,6 +30,11 @@
 
 1.  リポジトリの **Releasesページ** にアクセスします。
 2.  最新バージョンのアセット（Assets）から `YakubunKobo_Setup-x.x.x.exe` という名前のファイルをダウンロードします。
+
+> **Warning**
+> アプリケーションにはデジタル署名が行われていないため、ブラウザやWindowsによってダウンロード時や実行時に警告が表示されることがあります。これはファイルが危険であることを意味するものではありません。
+>
+> 詳しい対処法については、**ダウンロードとインストールの手順**をご覧ください。
 
 ### 2. インストールの実行
 
