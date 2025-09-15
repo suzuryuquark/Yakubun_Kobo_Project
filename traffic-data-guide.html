@@ -1,0 +1,88 @@
+<section style="font-family: 'Segoe UI', 'Meiryo', sans-serif; margin: 2em; background: #f9f9f9; color: #222;">
+  <h3 style="color: #2a4d7c;">📊 GitHubのTrafficデータの意味について</h3>
+  <div style="background: #eaf6ff; border-left: 4px solid #2a4d7c; padding: 0.5em 1em; margin-bottom: 1em;">
+    GitHubリポジトリの <strong>Insights</strong> > <strong>Traffic</strong> セクションで表示される各種データの意味について説明します。
+  </div>
+  
+  <div style="background: #fff; border-radius: 8px; box-shadow: 0 2px 8px #eee; padding: 1em; margin-bottom: 2em;">
+    <h4 style="color: #2a4d7c;">1. Clones in last 14 days（過去14日間のクローン数）</h4>
+    <p><strong>意味</strong>: 過去14日間にリポジトリがクローン（ダウンロード）された回数の合計です。</p>
+    <p><strong>詳細説明</strong>:</p>
+    <ul style="margin-left: 1.5em;">
+      <li><code>git clone</code> コマンドまたはGitHub Desktop、その他のGitクライアントを使用してリポジトリをローカルにダウンロードした回数</li>
+      <li>同じユーザーが複数回クローンした場合は、その回数分カウントされます</li>
+      <li>APIアクセスやその他の自動化ツールによるクローンも含まれます</li>
+      <li>プロジェクトの人気度や開発者の関心度を測る指標の一つです</li>
+    </ul>
+  </div>
+  
+  <div style="background: #fff; border-radius: 8px; box-shadow: 0 2px 8px #eee; padding: 1em; margin-bottom: 2em;">
+    <h4 style="color: #2a4d7c;">2. Unique cloners in last 14 days（過去14日間のユニーククローン実行者数）</h4>
+    <p><strong>意味</strong>: 過去14日間にリポジトリをクローンした個別のユーザー（またはIPアドレス）の数です。</p>
+    <p><strong>詳細説明</strong>:</p>
+    <ul style="margin-left: 1.5em;">
+      <li>同じユーザーが何度クローンしても、1人としてカウントされます</li>
+      <li>GitHubにログインしているユーザーの場合はアカウント単位、匿名の場合はIPアドレス単位で識別されます</li>
+      <li>実際にプロジェクトに関心を持った開発者の実数を把握できる重要な指標です</li>
+      <li>「Clones in last 14 days」を「Unique cloners」で割ることで、1人あたりの平均クローン回数がわかります</li>
+    </ul>
+  </div>
+  
+  <div style="background: #fff; border-radius: 8px; box-shadow: 0 2px 8px #eee; padding: 1em; margin-bottom: 2em;">
+    <h4 style="color: #2a4d7c;">3. Total views in last 14 days（過去14日間の総閲覧数）</h4>
+    <p><strong>意味</strong>: 過去14日間にリポジトリのページが閲覧された回数の合計です。</p>
+    <p><strong>詳細説明</strong>:</p>
+    <ul style="margin-left: 1.5em;">
+      <li>GitHubのウェブサイト上でリポジトリページ（README、コード、Issues、Pull Requestsなど）が表示された回数</li>
+      <li>同じユーザーが何度もページを訪問した場合は、その回数分カウントされます</li>
+      <li>ボットやクローラーによるアクセスも含まれる場合があります</li>
+      <li>プロジェクトの注目度や情報への関心度を測る指標です</li>
+    </ul>
+  </div>
+  
+  <div style="background: #fff; border-radius: 8px; box-shadow: 0 2px 8px #eee; padding: 1em; margin-bottom: 2em;">
+    <h4 style="color: #2a4d7c;">4. Unique visitors in last 14 days（過去14日間のユニーク訪問者数）</h4>
+    <p><strong>意味</strong>: 過去14日間にリポジトリを訪問した個別のユーザー（またはIPアドレス）の数です。</p>
+    <p><strong>詳細説明</strong>:</p>
+    <ul style="margin-left: 1.5em;">
+      <li>同じユーザーが何度もページを訪問しても、1人としてカウントされます</li>
+      <li>GitHubにログインしているユーザーの場合はアカウント単位、匿名の場合はIPアドレス単位で識別されます</li>
+      <li>プロジェクトに実際に関心を持った人の実数を把握できる重要な指標です</li>
+      <li>「Total views」を「Unique visitors」で割ることで、1人あたりの平均閲覧回数がわかります</li>
+    </ul>
+  </div>
+  
+  <div style="background: #fff; border-radius: 8px; box-shadow: 0 2px 8px #eee; padding: 1em; margin-bottom: 2em;">
+    <h4 style="color: #2a4d7c;">📈 データの活用方法</h4>
+    <h5 style="color: #2a4d7c; margin-top: 1em;">プロジェクトの人気度測定</h5>
+    <ul style="margin-left: 1.5em;">
+      <li><strong>Views</strong>: プロジェクトへの一般的な関心度</li>
+      <li><strong>Clones</strong>: 実際にコードを使用しようとしている開発者の数</li>
+    </ul>
+    
+    <h5 style="color: #2a4d7c; margin-top: 1em;">効果的なコミュニケーション戦略</h5>
+    <ul style="margin-left: 1.5em;">
+      <li>高いViews数に対してClones数が少ない場合：README の改善や使い方の説明を充実させることで、実際の利用につながる可能性があります</li>
+      <li>Unique visitorsに対してTotal viewsが多い場合：リピーターが多く、継続的に関心を持たれているプロジェクトであることがわかります</li>
+    </ul>
+    
+    <h5 style="color: #2a4d7c; margin-top: 1em;">リリースタイミングの効果測定</h5>
+    <ul style="margin-left: 1.5em;">
+      <li>新しいリリースやアップデート後のトラフィック変化を監視することで、告知やマーケティングの効果を測定できます</li>
+    </ul>
+  </div>
+  
+  <div style="background: #fff8e1; border-left: 4px solid #ff9800; padding: 0.5em 1em; margin-bottom: 1em;">
+    <h4 style="color: #e65100; margin-top: 0;">🔍 注意事項</h4>
+    <ul style="margin-left: 1.5em;">
+      <li><strong>データの更新頻度</strong>: Trafficデータは通常数時間から1日程度の遅延があります</li>
+      <li><strong>プライベートリポジトリ</strong>: プライベートリポジトリの場合、閲覧権限のあるユーザーのアクセスのみがカウントされます</li>
+      <li><strong>ボットアクセス</strong>: 一部の自動化ツールやクローラーのアクセスも含まれる可能性があります</li>
+      <li><strong>14日間の制限</strong>: GitHubの標準機能では過去14日間のデータのみ表示されます</li>
+    </ul>
+  </div>
+  
+  <div style="background: #eaf6ff; border-left: 4px solid #2a4d7c; padding: 0.5em 1em; margin-bottom: 1em;">
+    このデータを定期的に確認することで、プロジェクトの成長や改善の効果を客観的に評価できます。
+  </div>
+</section>
